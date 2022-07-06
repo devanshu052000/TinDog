@@ -1,0 +1,171 @@
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+body{
+  text-align: center;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title{
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+.ico{
+  color: #ef8172;
+  padding: 50px 0 25px;
+}
+
+#features{
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+
+p{
+  color: #8f8f8f;
+  padding: 0 70px;
+}
+
+.ico:hover{
+  color: #ff4c68;
+}
+
+.cf{
+  padding: 100px 186.238px;
+}
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 200%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.card {
+  height: 100%;
+}
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  padding: 5% 15% 0%;
+}
+
+.cta-btn {
+  margin-top: 50px;
+  margin-bottom: 125px;
+}
+
+#footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-icon{
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
